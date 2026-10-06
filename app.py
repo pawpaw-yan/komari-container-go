@@ -96,7 +96,7 @@ def download(force: bool = False) -> None:
 
 INTERNAL_PORT = 25774
 # 平台网关可能转发的常见入口端口；绑定失败的端口自动跳过
-EXTRA_PORTS = (80, 3000, 5000, 8000, 8080)
+EXTRA_PORTS = (80, 3000, 5000, 8000, 8080, 30033)
 
 
 def build_server_cmd(listen: str) -> list:
